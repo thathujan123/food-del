@@ -23,3 +23,80 @@
         display: none;
     }
 }
+
+
+/* List.css */
+.list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .list-table {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .food-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-content {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  .food-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .food-info {
+    flex: 1;
+  }
+  
+  .food-info h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .food-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+
+
+  .add-list {
+    background-color: #f9f9f9;
+    color: #000000;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    width: 90%;
+    margin: 50px 10px 20px 85px;
+    font-family: 'Arial', sans-serif;
+}
+  
+  @media (max-width: 600px) {
+    .food-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .food-image {
+      margin-bottom: 10px;
+    }
+  }
+  

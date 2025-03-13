@@ -35,7 +35,7 @@ const Order = () => {
   }, [])
 
   return (
-    <div className='order add'>
+    <div className='order add-order'>
       <h3>Order Page</h3>
       <div className="order-list">
         {orders.map((order, index) => (

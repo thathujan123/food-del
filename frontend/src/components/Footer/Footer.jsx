@@ -1,41 +1,38 @@
 import React from 'react'
 import './Footer.css'
-import logo2 from "../../assets/logo2.png";
-
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={logo2} />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Being the Pioneers of delivering Fresh Dum-Cooked Handi Biryanis across the country, Royalchef's Biryani takes customer experience up a notch with unique and authentic shaahi andaaz of serving handis of melting flavors. The first ones to introduce ‘Ambur biryani’ concept and deliver freshly prepared biryani for individual orders.</p>
             <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
+                <a href='https://www.instagram.com/royalchefs/'> <img src={assets.facebook_icon} /></a>
+                <a href='https://www.instagram.com/royalchefs/'> <img src={assets.twitter_icon} /></a>
+                <a href='https://www.linkedin.com/in/nanthakumar-thathujan-3566a7321/'> <img src={assets.linkedin_icon} /></a>
             </div>
         </div>
         <div className="footer-content-center">
             <h2>COMPANY</h2>
             <ul>
                 <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+                <li>Menu</li>
+                <li>Contact us</li>
             </ul>
         </div>
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+94 741556016</li>
-                <li>contact@RCB.com</li>
+                <li>0741556016</li>
+                <li>contact@rcb.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © RCB.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © Royalchefs.com - All Right Reserved.</p>
     </div>
   )
 }

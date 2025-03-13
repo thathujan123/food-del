@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../Context/StoreContext'
 import { useNavigate } from 'react-router-dom';
+import { DeleteOutlined } from '@ant-design/icons';
 
 const Cart = () => {
 
@@ -25,7 +26,7 @@ const Cart = () => {
                 <p>{currency}{item.price}</p>
                 <div>{cartItems[item._id]}</div>
                 <p>{currency}{item.price*cartItems[item._id]}</p>
-                <p className='cart-items-remove-icon' onClick={()=>removeFromCart(item._id)}>x</p>
+                <p className='cart-items-remove-icon' onClick={()=>removeFromCart(item._id)}><DeleteOutlined /></p>
               </div>
               <hr />
             </div>)

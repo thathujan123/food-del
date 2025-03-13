@@ -11,11 +11,12 @@
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 1fr;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     font-size: 14px;
     padding: 10px 20px;
     color: #454545;
     border: 1px solid tomato;
+    margin-top: 100px;
 }
 .my-orders-order img{
     width: 50px;

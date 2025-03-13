@@ -1,9 +1,12 @@
 .header{
-    height: 36vw;
-    margin: 40px auto;
-    background: url('../../assets/header_img.jpg') no-repeat;
-    background-size:contain;
+    height: 600px;
+    margin: 50px auto;
+    background:url('/header_img.png') no-repeat ;
+    background-size: cover;
     position: relative;
+    border-radius: 15px;
+    margin-top: 170px;
+
 }
 .header-contents{
     position: absolute;
@@ -18,19 +21,19 @@
 }
 .header-contents h2{
     font-weight:500;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: max(4.5vw,22px);
 }
 .header-contents p{
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 1vw;
 }
 .header-contents button{
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(to right, #c809a5, #FFC107);
     font-size: max(1vw,13px);
     border-radius: 50px;
 }

@@ -36,8 +36,8 @@ const List = () => {
   }, [])
 
   return (
-    <div className='list add flex-col'>
-      <p>All Foods List</p>
+    <div className='list add-list flex-col'>
+      <h3>All Foods List</h3>
       <div className='list-table'>
         <div className="list-table-format title">
           <b>Image</b>

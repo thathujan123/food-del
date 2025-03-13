@@ -61,11 +61,11 @@ export const menu_list = [
         menu_image: menu_1
     },
     {
-        menu_name: "Hyderabadi ",
+        menu_name: "Hyderabadi Biryani", 
         menu_image: menu_2
     },
     {
-        menu_name: "Ambur ",
+        menu_name: "Ambur Biryani", 
         menu_image: menu_3
     },
     {
